@@ -111,3 +111,12 @@ both simple and parallel model settings.
 
 Automatically generated specifications that may include multiple instances in one vnnlib file can be found in directory [vnnlib](./vnnlib). 
 Our benchmark provides pairs of (i) models for learned index, learned cardinality and learned video stream, (ii) corresponding specifications, (iii) corresponding timeout to cover varied difficulties for verification tools. You can find these information in [instances.csv](./instances.csv).
+
+## Conda Environment Setup
+
+1. Install Miniforge or Conda.
+
+2. Create the environment:
+
+```bash
+conda env create -f environment.yml

@@ -1,0 +1,11 @@
+name: nn4sys
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pip
+  - pip:
+      - torch==2.5.1
