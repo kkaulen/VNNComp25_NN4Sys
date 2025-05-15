@@ -112,11 +112,25 @@ both simple and parallel model settings.
 Automatically generated specifications that may include multiple instances in one vnnlib file can be found in directory [vnnlib](./vnnlib). 
 Our benchmark provides pairs of (i) models for learned index, learned cardinality and learned video stream, (ii) corresponding specifications, (iii) corresponding timeout to cover varied difficulties for verification tools. You can find these information in [instances.csv](./instances.csv).
 
-## Conda Environment Setup
+## Installation (for VNN-COMP)
 
-1. Install Miniforge or Conda.
+We recommend using **Python 3.9**.
 
-2. Create the environment:
+To install dependencies, run:
 
 ```bash
-conda env create -f environment.yml
+pip install -r requirements.txt
+```
+
+## MSCN Models
+
+The `mscn_2048d.onnx` model is included in this repository.
+
+However, due to Git LFS storage restrictions, the `mscn_2048d_dual.onnx` model is **not** stored in this repo.
+
+If you have trouble obtaining it via Git LFS, you can download the `mscn_2048d_dual.onnx` model from the following Google Drive link:
+
+[Google Drive - MSCN Models](https://drive.google.com/drive/folders/1p_U812OnrMBjYHhldvHbUmKfnOuh?usp=drive_link)
+
+After downloading, please place the `mscn_2048d_dual.onnx` file inside the `onnx` directory.
+
