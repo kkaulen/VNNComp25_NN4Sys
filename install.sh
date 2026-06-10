@@ -1,1 +1,1 @@
-wget https://rwth-aachen.sciebo.de/s/jmOIfDp3VJKqOvP/download -o ./onnx/mscn_2048d_dual.onnx
+wget https://rwth-aachen.sciebo.de/s/jmOIfDp3VJKqOvP/download -O ./onnx/mscn_2048d_dual.onnx
